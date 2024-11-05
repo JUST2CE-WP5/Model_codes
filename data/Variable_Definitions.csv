@@ -1,0 +1,104 @@
+dimension,type,label,unit,name
+aggregate,households,c,10B.EUR,Total Real Consumption
+aggregate,households,yd,10B.EUR,Disposable Income
+aggregate,households,ydw,10B.EUR,Worker Disposable Income
+aggregate,households,ydc,10B.EUR,Capitalist Disposable Income
+aggregate,households,v,10B.EUR,Net Household Wealth
+aggregate,households,ineq,,Functional Inequality
+aggregate,production,y,10B.EUR,Nominal Output
+aggregate,production,yn,10B.EUR,Net Income / Value Added
+aggregate,production,f_f,10B.EUR,Corporate Profit
+aggregate,production,va,10B.EUR,Value Added
+aggregate,production,fd,10B.EUR,Final Demand in Real Terms
+aggregate,production,go,10B.EUR,Gross Output
+aggregate,investment,kt,10B.EUR,Target Fixed Capital as Ratio to Output
+aggregate,investment,id,10B.EUR,Real Investment in Fixed Capital
+aggregate,investment,da,10B.EUR,Depreciation Allowance in Real Terms
+aggregate,investment,k,10B.EUR,Fixed Capital Stock
+aggregate,investment,af,10B.EUR,Amortization Funds
+aggregate,investment,lf,10B.EUR,Corporate Demand for Bank Loans
+aggregate,investment,e_s,10B.EUR,Quantity of Shares Issued by Private Firms
+aggregate,investment,e_s_Z1,10B.EUR,Supply of Z1 Shares to Domestic Households
+aggregate,investment,e_s_Z2,10B.EUR,Supply of Z2 Shares to Domestic Households
+aggregate,investment,r_e,10B.EUR,Percentage Return Rate on Shares Issued by Private Firms
+aggregate,investment,div,10B.EUR,Dividends to Households
+aggregate,commercial.banks,ls,10B.EUR,Bank Loan Supply
+aggregate,commercial.banks,ms,10B.EUR,Bank Deposit Supply (on Demand)
+aggregate,commercial.banks,b_b,10B.EUR,Holdings of Bills
+aggregate,commercial.banks,a_d,10B.EUR,Demand for Advances
+aggregate,commercial.banks,f_b,10B.EUR,Bank Profit
+aggregate,govt.central.bank,g,10B.EUR,Government Spending
+aggregate,govt.central.bank,t,10B.EUR,Tax Payments
+aggregate,govt.central.bank,gdef,10B.EUR,Government Deficit
+aggregate,govt.central.bank,b_s,10B.EUR,Supply of Government Bills (Government Debt)
+aggregate,govt.central.bank,a_s,10B.EUR,Central Bank Advances: Supply
+aggregate,govt.central.bank,h_s,10B.EUR,Supply of Cash Money
+aggregate,govt.central.bank,p_or,10B.EUR,Price of Reserves
+aggregate,govt.central.bank,or,10B.EUR,Quantity of Reserves
+aggregate,govt.central.bank,b_s_Z1,10B.EUR,Supply of Bills issued by EU to Domestic Households
+aggregate,govt.central.bank,b_s_Z2,10B.EUR,Supply of Bills issued by RoW to Domestic Households
+aggregate,govt.central.bank,f_cb,10B.EUR,Central Bank Profits
+aggregate,govt.central.bank,b_cb,10B.EUR,Central Bank Holdings of Domestic Bills
+aggregate,govt.central.bank,b_cb_d_Z1,10B.EUR,Central Bank Demand of EU Bills
+aggregate,govt.central.bank,b_cb_d_Z2,10B.EUR,Central Bank Demand of RoW Bills
+aggregate,govt.central.bank,b_cb_s_Z1,10B.EUR,Supply of EU Bills to the Central Bank
+aggregate,govt.central.bank,b_cb_s_Z2,10B.EUR,Supply of RoW Bills to the Central Bank
+aggregate,govt.central.bank,vat_rev,10B.EUR,VAT Revenue
+aggregate,govt.central.bank,tar_rev,10B.EUR,Import Tariffs Revenue
+aggregate,govt.central.bank,debt.gdp,,Debt to GDP Ratio
+aggregate,labor.market,n,10M p.,Employment
+aggregate,labor.market,nf,10M p.,Female Employment
+aggregate,labor.market,wb,10B.EUR,Wage Bill
+aggregate,portfolio.choices,b_h_Z1,10B.EUR,Domestic Private Demand for Bills from EU
+aggregate,portfolio.choices,b_h_Z2,10B.EUR,Domestic Private Demand for Bills from RoW
+aggregate,portfolio.choices,e_h_Z1,10B.EUR,Domestic Household Demand for Z1 Shares
+aggregate,portfolio.choices,e_h_Z2,10B.EUR,Domestic Household Demand for Z2 Shares
+aggregate,portfolio.choices,h_h,10B.EUR,Cash Held by Domestic Households
+aggregate,portfolio.choices,lh,10B.EUR,Household Demand for Personal Loans
+aggregate,portfolio.choices,mh,10B.EUR,Domestic Households Demand for Deposits
+aggregate,prices,pa,EUR,Average Price of Domestic Consumption
+aggregate,prices,pid,EUR,Average Price of Investment
+aggregate,prices,pg,EUR,Average Price of Government Spending
+aggregate,prices,pim,EUR,Average Price of Imports
+aggregate,ecological,x_mat,10Mt,Production of Material Goods
+aggregate,ecological,mat,10Mt,Extraction of Matter
+aggregate,ecological,rec,10Mt,Recycled Matter
+aggregate,ecological,dc,10Mt,Stock of Durable Consumption Goods
+aggregate,ecological,kh,10Mt,Socio-Economic Stock
+aggregate,ecological,en,"10,000eJ",Energy Required for Production
+aggregate,ecological,ren,"10,000eJ",Renewable Energy
+aggregate,ecological,nen,"10,000eJ",Non-Renewable Energy
+aggregate,ecological,gamma_A,,Transition Speed to Circular Economy
+aggregate,ecological,wa,10Mt,Waste
+aggregate,ecological,emis,10t CO2 eq.,Annual CO2 Emissions
+aggregate,ecological,co2_cum,10t CO2 eq.,CO2 Concentration
+aggregate,ecological,temp,C,Atmospheric Temperature
+aggregate,balance.of.payments,xr,EUR/USD,Exchange Rate
+aggregate,balance.of.payments,imp,10B.EUR,Real Imports
+aggregate,balance.of.payments,nimp,10B.EUR,Nominal Imports
+aggregate,balance.of.payments,M_TOT_int,10B.EUR,Intermediate Imports
+aggregate,balance.of.payments,X_TOT_int,10B.EUR,Intermediate Exports
+aggregate,balance.of.payments,rex,10B.EUR,Real Exports
+aggregate,balance.of.payments,nex,10B.EUR,Nominal Exports
+aggregate,balance.of.payments,tb,10B.EUR,Trade Balance
+aggregate,balance.of.payments,cab,10B.EUR,Current Account Balance
+aggregate,balance.of.payments,kabp,10B.EUR,"Financial Account Balance, Net of Official Transactions"
+aggregate,balance.of.payments,nafa,10B.EUR,Net Accumulation of Financial Assets (NAFA)
+aggregate,balance.of.payments,dxre,,Expected Rate of Growth of the Exchange Rate
+industry,households,yd,10B.EUR,Disposable Income
+industry,households,ydw,10B.EUR,Worker Disposable Income
+industry,households,ydc,10B.EUR,Capitalist Disposable Income
+industry,production,x,10B.EUR,Real Output
+industry,production,x_star,10B.EUR,Potential Output
+industry,production,d,10B.EUR,Final Demand in Real Terms
+industry,production,va_j,10B.EUR,Value Added
+industry,govt.central.bank,t_j,10B.EUR,Tax Payments
+industry,govt.central.bank,int_j,10B.EUR,Interest Payments
+industry,labor.market,pop_j,10M p.,Labor Force
+industry,labor.market,n_j,10M p.,Employment
+industry,labor.market,nf_j,10M p.,Female Employment
+industry,labor.market,wb_j,10B.EUR,Wage Bill
+industry,prices,p_t,EUR,Reproduction Prices (including Capital Depreciation)
+industry,prices,p,EUR,Market Prices
+industry,ecological,wa_j,10Mt,Waste
+industry,ecological,emis_j,10t CO2 eq.,Annual CO2 Emissions

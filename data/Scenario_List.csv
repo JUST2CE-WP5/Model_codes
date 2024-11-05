@@ -1,0 +1,12 @@
+﻿Shock.Number,Shock,Mechanism,Type,Notes,Refinements
+1,Reduction in Consumption Level,"Reduce propensities to consume $\alpha_1$, $\alpha_2$, and $\alpha_3$",CE Practices by Households and Firms,"(in our simulations, consumption may go down if propensities increase)",
+2,Change in Consumption Composition towards Services,Increase consumption share of services $\beta_s$ at the expense of manufacturing $\beta_m$ ; increase final investment of manufacturing,CE Practices by Households and Firms,"(e.g. higher share of services), betas are constant",
+3,Product Life Time Extension,Reduce depreciation rate $\delta$ for firms,CE Practices by Households and Firms,by increasing the share of durable goods; SFC inconsistent,Reduce Percentage of durable consumption goods discarded zeta_dc for households
+4,Higher Recycling Rate,"Higher input-output coefficients $a_{CE,i}$",CE Practices by Households and Firms, in one or more industries / areas ,Double-Check B and CE Transition in IO Coeffs
+5,Higher Propensity to Consume Green,Reduce waste coefficients $\zeta$,CE Practices by Households and Firms,SFC Inconsistent,Heterogeneous Zeta may be more interesting
+7,Lower Extraction (or Conversion) Rate of Matter,Reduce $\mu_{mat}$,CE Practices by Households and Firms,,
+8,Lower Discarding Rate of Socio-Economic Stock,Reduce percentage durable consumption goods discarded $\zeta_{dc}$ for households,CE Practices by Households and Firms,,
+9,Higher Renewable Energy Share,Increase $\eta_{en}$,CE Practices by Households and Firms,,
+11,Higher Govt Spending towards Efficiency,Increase G; Activate CE transition with a B matrix with smaller IO coefficients,Direct CE Policies by the Government,(entailing smaller technical coefficients),
+12,More Selective Govt Spending towards Recycling Efficiency,Increase $\sigma_{CE}$; Activate CE transition with $B$ matrix,Direct CE Policies by the Government,(entailing smaller technical coefficients) ,
+21,More Progressive Taxation,Increase $\theta_c$,Indirect Effects on CE from Other Practices and Policies, e.g. higher taxes on capital incomes),
