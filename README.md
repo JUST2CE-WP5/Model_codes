@@ -1,1 +1,1 @@
-This is the official repository for the input-output stock-flow consistent models developed in Work Package 5 of the JUST2CE project. New code releases are expected throughout 2024, 2025, and 2026.
+This is the official repository for the input-output stock-flow consistent models developed in Work Package 5 of the JUST2CE project. The main progamming language/environment we used is `R`. New codes are going to be released throughout 2024 and 2025.
